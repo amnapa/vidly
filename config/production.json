@@ -4,5 +4,5 @@
         "host" : "prod-mail-server"
     },
     "jwtPrivateKey": "vidly_jwtPrivateKey",
-    "db": "vidly_db"
+    "database": "vidly_db"
 }
