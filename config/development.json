@@ -1,7 +1,6 @@
 {
     "name": "My Express App - Development",
-    "mail": {
-        "host" : "dev-mail-server"
-    },
-    "jwtPrivateKey": "vidly_jwtPrivateKey"
+    "jwtPrivateKey": "vidly_jwtPrivateKey",
+    "database": "mongodb://127.0.0.1/vidly",
+    "requiresAuth": true
 }

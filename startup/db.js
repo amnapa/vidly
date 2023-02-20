@@ -4,7 +4,6 @@ const config = require("config");
 
 module.exports = function () {
   const db = config.get("database");
-  console.log(db);
   // Connect to Mongo DB
   mongoose
     .connect(db)
